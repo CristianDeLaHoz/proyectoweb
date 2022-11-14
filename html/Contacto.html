@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+  <meta charset="UFT-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--titulo-->
+  <title>Azul Oyarzun - Artista Circense - Home</title>
+
+  <!--favicons-->
+  <link href="./hula-hoop-boton-k8_600x600.jpg" rel="icon">
+
+  <!--fuente-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!--hoja CSS-->
+  <link rel="stylesheet" href="./Css/styles.css">
+
+  <audio src="micancion.mp3" autoplay="autoplay" loop="loop"></audio><audio src="./background-music.mp3" autoplay="autoplay" loop="loop"></audio>
+</head>
+
+<body>
+<!--menu de nav-->
+<header id="header" class="fixed-top header">
+    <div class="container d-flex align-items-center justify-content-between">
+    <nav id="navbar" class="navbar">
+        <div class="logo">
+          <ul>
+            <h1 class="text">Azul Oyarzun</h1>
+            <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="./QuienSoy.html">Quien soy?</a></li>
+            <li><a class="nav-link scrollto" href="./Shows.html">Shows</a></li>
+            <li><a class="nav-link scrollto" href="./Plus.html">Historia</a></li>
+            <li><a class="nav-link scrollto" href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </div>        
+    </nav>     
+       
+    </div>
+</header>
+        
+        <div class="contact_form">
+      
+          <div class="formulario">      
+            <h1>Contacto!</h1>
+              <h3>Para más información, cualquier pregunta o reservas dejame tus datos y en breve me voy a estar comunicando con vos!</h3>
+      
+      
+                <form action="submeter-formulario.php" method="post">       
+      
+                  
+                      <p>
+                        <label for="nombre" class="colocar_nombre">Nombre</label>
+                          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre">
+                      </p>
+                    
+                      <p>
+                        <label for="email" class="colocar_email">Email</label>
+                          <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Email">
+                      </p>
+                  
+                      <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                          <input type="tel" name="introducir_telefono" id="telefono" placeholder="Teléfono">
+                      </p>    
+                    
+                      <p>
+                        <label for="Consulta!" class="colocar_mensaje">Mensaje
+                          <span class="obligatorio">*</span>
+                        </label>                     
+                                          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Dejame tu mensaje..."></textarea> 
+                                      </p>                    
+                    
+                      <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+       
+            </form>
+          </div>  
+        </div>
+      
+      </body>
+      </html>

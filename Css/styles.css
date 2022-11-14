@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/007/546/117/non_2x/pastel-low-poly-background-texture-trendy-light-pink-elegant-surface-with-silver-lines-in-minimalist-style-vector.jpg);
+ color: #be5ea2;
+}
+  h1{
+    padding-bottom: 0px;
+    text-align: left;
+  }
+  h2{
+    justify-content: center;
+    padding: 0px 10px 30px 10px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+   
+  }
+
+main {
+    margin-top: 1px;
+}
+
+header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 0px;
+    padding-bottom: 4px;
+    display: flex;  
+    justify-content: center;
+    width: 100%;
+    position: ;
+    top: 0px;
+
+  }
+
+/*logo con texto*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding
+    color: rgb(160, 110, 152);
+    text-decoration: none;
+    text-align: center;
+  }
+  nav ul li:hover {
+    background: #d31389;
+  }
+
+a {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+video{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+/* Caja de contacto */
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 0px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    
+    color: #ab4493;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  .formulario {
+    padding-right: 30px;
+}
+
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+
+  /* Galeria de fotos */
+
+  .container {
+    max-width: 800px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .lightbox-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .lightbox-gallery div > img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .lightbox-gallery div {
+    margin: 10px;
+    flex-basis: 180px;
+  }
+    
+    .lightbox > div {
+      margin-bottom: 10px;
+    }
+    
+  /*Lighbox CSS*/
+  
+  .lightbox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  
+  .lightbox img {
+    display: block;
+    margin: auto;
+  }
+  
+  .lightbox .caption {
+    margin: 15px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #eee;
+  }
+  
+  .github-link {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .github-link:hover,
+  .github-link:active,
+  .github-link:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  h3 {
+    text-align: center;
+    margin: auto;
+  }
+
+ 
